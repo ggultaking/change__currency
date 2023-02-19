@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXCHANGE</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="images/bankLogo.svg" alt="Bank Logo" id="bank__logo" />
+      <h2>BANK</h2>
+      <h2>BUSINESS</h2>
+      <h2>INVESTMENTS</h2>
+      <h2>INSURANCE</h2>
+      <h2>МОBILE</h2>
+      <h2>TRIPS</h2>
+      <h2>ENTERTAINMENT</h2>
+      <div class="submit"><input type="submit" id="submit" value="ENTER" /></div>
+    </div>
+    <h1>Currency converter online</h1>
+    <div class="calculator">
+      <div class="left__part">
+        <h3>I have</h3>
+        <div class="left__currency">
+          <div id="left__currency__divs">
+            <div class="selected left__first__div">
+              <p>RUB</p>
+            </div>
+            <div>
+              <p>USD</p>
+            </div>
+            <div>
+              <p>EUR</p>
+            </div>
+          </div>
+          <div id="select__div">
+            <select name="currency" id="left__select"></select>
+          </div>
+        </div>
+        <div class="currency__result">
+          <input type="number" name="currency__result__left" id="result__left" />
+          <p id="value__left"></p>
+        </div>
+      </div>
+     
+      <div class="right__part">
+        <h3>I want to buy</h3>
+        <div class="right__currency">
+          <div id="right__currency__divs">
+            <div class="right__first__div">
+              <p>RUB</p>
+            </div>
+            <div class="selected">
+              <p>USD</p>
+            </div>
+            <div>
+              <p>EUR</p>
+            </div>
+          </div>
+          <div id="select__div">
+            <select name="currency"  id="right__select"></select>
+          </div>
+        </div>
+        <div class="currency__result">
+          <input type="number" name="currency__result__right" id="result__right" />
+          <p id="value__right"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
